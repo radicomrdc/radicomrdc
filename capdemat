@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dezinsecție Caransebeș | Radicom RDC</title>
+  <meta name="description" content="Radicom RDC – servicii de dezinsecție, deratizare și dezinfectare în Caransebeș și Caraș-Severin. Sună sau WhatsApp: 0723 445 972." />
+
+  <style>
+    :root{
+      --bg:#0b1220; --card:#0f1a33; --muted:#9fb0d0; --text:#eef3ff;
+      --accent:#46c2ff; --accent2:#7cffa6; --line: rgba(255,255,255,.1);
+      --radius:18px; --max:1100px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;
+      color:var(--text);
+      background:var(--bg);
+      line-height:1.5;
+    }
+    a{text-decoration:none;color:inherit}
+    .wrap{max-width:var(--max);margin:auto;padding:0 16px}
+    header{border-bottom:1px solid var(--line)}
+    .nav{display:flex;justify-content:space-between;align-items:center;padding:14px 0}
+    .brand{font-weight:800}
+    .btn{padding:10px 14px;border-radius:999px;border:1px solid var(--line);font-weight:700}
+    .btn.primary{background:#46c2ff;color:#000}
+    .btn.whatsapp{background:#25d366;color:#000}
+    .hero{padding:40px 0}
+    h1{font-size:38px;margin:0 0 10px}
+    .sub{color:var(--muted);margin-bottom:20px}
+    section{padding:30px 0;border-top:1px solid var(--line)}
+    h2{margin:0 0 14px}
+    .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+    .card{background:var(--card);padding:16px;border-radius:var(--radius);border:1px solid var(--line)}
+    @media(max-width:800px){.grid3{grid-template-columns:1fr}}
+    footer{padding:20px 0;color:var(--muted);border-top:1px solid var(--line)}
+    .cta{display:flex;gap:10px;flex-wrap:wrap}
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="wrap nav">
+    <div class="brand">Radicom RDC<br><small>Dezinsecție • Deratizare • Dezinfectare</small></div>
+    <div class="cta">
+      <a class="btn primary" href="tel:+40723445972">Sună</a>
+      <a class="btn whatsapp" href="https://wa.me/40723445972">WhatsApp</a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="wrap">
+      <h1>Dezinsecție, Deratizare, Dezinfectare<br>în Caransebeș</h1>
+      <p class="sub">
+        Servicii DDD pentru locuințe și firme în Caransebeș și județul Caraș-Severin.
+        Intervenție rapidă, soluții adaptate fiecărui caz.
+      </p>
+      <div class="cta">
+        <a class="btn primary" href="tel:+40723445972">Sună: 0723 445 972</a>
+        <a class="btn whatsapp" href="https://wa.me/40723445972">Scrie pe WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Servicii</h2>
+      <div class="grid3">
+        <div class="card">
+          <h3>Dezinsecție</h3>
+          <p>Combatere gândaci, ploșnițe, furnici și alte insecte.</p>
+        </div>
+        <div class="card">
+          <h3>Deratizare</h3>
+          <p>Eliminare și control șoareci și șobolani.</p>
+        </div>
+        <div class="card">
+          <h3>Dezinfectare</h3>
+          <p>Igienizare profesională a spațiilor locuite sau comerciale.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Cum lucrăm</h2>
+      <div class="grid3">
+        <div class="card">1️⃣ Ne suni sau ne scrii</div>
+        <div class="card">2️⃣ Evaluăm problema</div>
+        <div class="card">3️⃣ Intervenim rapid</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Contact</h2>
+      <p>
+        📍 Caransebeș, Caraș-Severin<br>
+        📞 0723 445 972<br>
+        ✉️ radicom_rdc@yahoo.com
+      </p>
+      <div class="cta">
+        <a class="btn primary" href="tel:+40723445972">Sună acum</a>
+        <a class="btn whatsapp" href="https://wa.me/40723445972">WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    © <script>document.write(new Date().getFullYear())</script> Radicom RDC
+  </div>
+</footer>
+
+</body>
+</html>
